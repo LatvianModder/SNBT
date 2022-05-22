@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[38,)"
+issueTrackerURL = "https://github.com/latvian-dev/SNBT/issues"
+license = "GNU LGPLv3"
+
+[[mods]]
+modId = "snbt"
+version = "${version}"
+displayName = "SNBT"
+authors = "LatvianModder"
+description = '''
+SNBT config library
+'''
+
+[[dependencies.snbt]]
+modId = "forge"
+mandatory = true
+versionRange = "[38.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.snbt]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18,)"
+ordering = "NONE"
+side = "BOTH"

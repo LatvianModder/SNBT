@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "snbt",
+	"version": "${version}",
+	"name": "SNBT",
+	"description": "SNBT config library",
+	"authors": [
+		"LatvianModder"
+	],
+	"contact": {
+		"sources": "https://github.com/latvian-dev/SNBT",
+		"issues": "https://github.com/latvian-dev/SNBT/issues"
+	},
+	"license": "GNU LGPLv3",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.latvian.mods.snbt.fabric.SNBTFabric"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+	},
+	"custom": {
+		"modmenu:api": true
+	}
+}
